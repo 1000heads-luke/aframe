@@ -26,7 +26,7 @@ var opts = {
   verbose: true,
   live: true,
   stream: process.stdout,
-  host: process.env.HOST,
+  host: '0.0.0.0',
   port: process.env.PORT || consts.PORT,
   watchGlob: consts.WATCH,
   ssl: process.env.SSL,
